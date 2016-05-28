@@ -208,13 +208,70 @@ textarea {
 }
 
 /** 2. Main CSS */
+html, body {
+    max-width: 100%;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #333333;
+    color: #ffffff;
+}
 #Obiou-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0;
     font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #666;
+    background-color: #fff;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    font-style: normal;
+}
+#main-container {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+#second-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    z-index: 99999999;
+    background: #fff;
+}
+.background-container {
+    position: fixed;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#slides {
+    width: 100%;
+    height: 100%;
+}
+#slides {
+    background: -webkit-linear-gradient(rgb(125, 122, 122), #0A0A0A);
+    background: -o-linear-gradient(rgb(125, 122, 122), #0A0A0A);
+    background: -moz-linear-gradient(rgb(125, 122, 122), #0A0A0A);
+    background: linear-gradient(rgb(125, 122, 122), #0A0A0A));
+}
+.slides-container div {
+    opacity: 0.8;
 }
 ul {
     list-style-type: none;
+}
+.main-navigation.smaller .main-navigation .home {
+    font-size: 15px;
 }
 .main-navigation {
     position: fixed;
@@ -222,17 +279,59 @@ ul {
     left: 0;
     z-index: 99;
     width: 100%;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
 }
 .slides-navigation a {
-    color: #DDD;
-    font-size: 32px!important;
+    color: #fff;
+    font-size: 1.7em;
     text-shadow: 2px 2px #000;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .main-navigation .home {
     color: #fff;
     text-decoration: none;
-    font-size: 46px;
+        font-size: 2.5em;
     font-weight: 700;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.main-navigation.scrolled .home {
+    font-size: 1em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.slides-pagination {
+    display: none;
+}
+.navigation-item {
+    display: inline-block;
+    width: auto;
+}
+.navigation-item.menu {
+    margin-left: 10px;
+}
+.menu-link {
+    color: #fff;
+}
+.footer-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 40px;
+    padding-bottom: 250px;
 }
 
 
@@ -257,12 +356,19 @@ ul {
   display: table;
   clear: both;
 }
-
+.main-navigation.scrolled {
+    background-color: rgba(0, 0, 0, 0.33);
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
 .slides-navigation {
   margin: 0 auto;
   position: absolute;
   z-index: 3;
-  top: 46%;
+  top: 36%;
   width: 100%;
 }
 .slides-navigation a {

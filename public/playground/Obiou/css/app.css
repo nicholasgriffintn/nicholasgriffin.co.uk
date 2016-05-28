@@ -224,6 +224,7 @@ ul {
     width: 100%;
 }
 .slides-navigation a {
+    color: #DDD;
     font-size: 32px!important;
     text-shadow: 2px 2px #000;
 }

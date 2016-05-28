@@ -275,8 +275,17 @@ ul {
 .main-navigation.smaller .main-navigation .home {
     font-size: 15px;
 }
-.main-navigation {
+.drop-menu {
     position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+        z-index: 99999;
+    background: #fff;
+}
+.main-navigation {
+  position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
@@ -329,12 +338,16 @@ ul {
 .menu-link {
     color: #fff;
 }
-.footer-content {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-left: 40px;
-    padding-bottom: 250px;
+.inner-navigation {
+    position: relative;
 }
+
+
+.drop-menu ul { margin-bottom:0; }
+.drop-menu > ul > li { margin-bottom:0; border-bottom:1px solid #ddd; padding:10px 30px; text-transform:uppercase; position:relative; }
+.drop-menu > ul > li a { color:#333; cursor:pointer; }
+.drop-menu a { font-size:1.2rem; text-decoration:none; letter-spacing:0.3rem;}
+
 
 
 /** 3. Superslide */
@@ -384,6 +397,15 @@ ul {
   right: 20px;
 }
 
+.menu { background:url('http://www.shawcase.com/codepen/assets/menu-black.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
+.open .accordian-icon { background:url('http://www.shawcase.com/codepen/assets/open.svg') no-repeat; }
+.close .accordian-icon { background:url('http://www.shawcase.com/codepen/assets/close.svg') no-repeat; }
+.menu-toggle {
+    display: inline-block;
+    width: 19px;
+    height: 12px;
+    margin-left: 10px;
+}
 .slides-pagination {
   position: absolute;
   z-index: 3;

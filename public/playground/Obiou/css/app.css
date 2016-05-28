@@ -208,6 +208,32 @@ textarea {
 }
 
 /** 2. Main CSS */
+#Obiou-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+ul {
+    list-style-type: none;
+}
+.main-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.slides-navigation a {
+    font-size: 32px!important;
+    text-shadow: 2px 2px #000;
+}
+.main-navigation .home {
+    color: #fff;
+    text-decoration: none;
+    font-size: 46px;
+    font-weight: 700;
+}
+
 
 /** 3. Superslide */
 #slides {
@@ -243,10 +269,10 @@ textarea {
   display: block;
 }
 .slides-navigation a.prev {
-  left: 0;
+  left: 20px;
 }
 .slides-navigation a.next {
-  right: 0;
+  right: 20px;
 }
 
 .slides-pagination {

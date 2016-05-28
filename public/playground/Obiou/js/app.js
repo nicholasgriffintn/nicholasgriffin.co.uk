@@ -1,4 +1,4 @@
-/*! Designed by Nicholas Griffin - https://nicholasgriffin.co.uk
+/*! Designed by Nicholas Griffin - https://nicholasgriffin.co.uk */
 
 
 /*! Superslides - v0.6.2 - 2013-07-10

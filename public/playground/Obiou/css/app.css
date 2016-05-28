@@ -306,6 +306,12 @@ ul {
 .slides-navigation a.next {
   right: 20px;
 }
+.menu-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    max-width: 30px;
+}
 
 .menu {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/icon-hamburger.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
 .menu-close {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/cancel.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
@@ -340,6 +346,20 @@ ul {
   overflow: hidden;
   text-indent: -100%;
 }
+.section-wrapper {
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .slides-pagination a.current {
   background: #222;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .drop-menu {
+    width: 100%;
+  }
 }

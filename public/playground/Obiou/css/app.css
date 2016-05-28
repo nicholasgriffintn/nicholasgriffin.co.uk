@@ -234,6 +234,8 @@ html, body {
     margin: 0;
     background: #ffffff;
     font-style: normal;
+        float: left;
+            width: 100%;
 }
 #main-container {
     width: 100%;

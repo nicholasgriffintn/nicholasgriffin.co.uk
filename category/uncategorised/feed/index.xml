@@ -12,12 +12,32 @@
 	<atom:link href="http://localhost/category/uncategorised/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nicholasgriffin.co.uk/</link>
 	<description>Web Developer, Blogger, and Technology Enthusiast</description>
-	<lastBuildDate>Fri, 17 Mar 2017 22:14:09 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 17 Mar 2017 22:34:18 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.7.3</generator>
 	<item>
+		<title>Test 4</title>
+		<link>https://nicholasgriffin.co.uk/2017/03/17/test-4/</link>
+		<comments>https://nicholasgriffin.co.uk/2017/03/17/test-4/#respond</comments>
+		<pubDate>Fri, 17 Mar 2017 22:33:47 +0000</pubDate>
+		<dc:creator><![CDATA[NicholasGriffin]]></dc:creator>
+				<category><![CDATA[Uncategorised]]></category>
+
+		<guid isPermaLink="false">https://nicholasgriffin.co.uk/?p=37</guid>
+		<description><![CDATA[Is she dead, yes or no? You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don&#8217;t know exactly when we turned [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><!-- start slipsum code --></p>
+<h3>Is she dead, yes or no?</h3>
+<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don&#8217;t know exactly when we turned on each other, but I know that seven of us survived the slide&#8230; and only five made it out. Now we took an oath, that I&#8217;m breaking now. We said we&#8217;d say it was the snow that killed the other two, but it wasn&#8217;t. Nature is lethal but it doesn&#8217;t hold a candle to man. </p>
+<h3>So, you cold?</h3>
+<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother&#8217;s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>
+<p><!-- end slipsum code --></p>
+]]></content:encoded>
+			<wfw:commentRss>https://nicholasgriffin.co.uk/2017/03/17/test-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Test 3</title>
 		<link>https://nicholasgriffin.co.uk/2017/03/17/test-3/</link>
 		<comments>https://nicholasgriffin.co.uk/2017/03/17/test-3/#respond</comments>
@@ -44,6 +64,7 @@
 		<pubDate>Fri, 17 Mar 2017 22:13:40 +0000</pubDate>
 		<dc:creator><![CDATA[NicholasGriffin]]></dc:creator>
 				<category><![CDATA[Uncategorised]]></category>
+		<category><![CDATA[test]]></category>
 
 		<guid isPermaLink="false">https://nicholasgriffin.co.uk/?p=24</guid>
 		<description><![CDATA[We happy? Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That&#8217;s Cesar&#8217;s world, and [&#8230;]]]></description>

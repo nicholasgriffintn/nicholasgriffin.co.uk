@@ -6,9 +6,9 @@
 	
 	>
 <channel>
-	<title>Comments for Nicholas Griffin</title>
-	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://nicholasgriffin.co.uk/</link>
+	<title>Comments on: Test 4</title>
+	<atom:link href="http://localhost/2017/03/17/test-4/feed/" rel="self" type="application/rss+xml" />
+	<link>https://nicholasgriffin.co.uk/2017/03/17/test-4/</link>
 	<description>Web Developer, Blogger, and Technology Enthusiast</description>
 	<lastBuildDate>Fri, 17 Mar 2017 22:58:35 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>

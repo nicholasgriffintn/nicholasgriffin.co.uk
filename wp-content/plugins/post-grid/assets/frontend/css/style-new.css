@@ -102,7 +102,7 @@
 
 
 .post-grid .grid-nav-top .nav-search .search {
-  background: rgb(255, 255, 255) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/search.png") no-repeat scroll 4px 6px;
+  background: rgb(255, 255, 255) url("search.png") no-repeat scroll 4px 6px;
   border: 1px solid #ddd;
   border-radius: 0;
   display: inline-block;
@@ -112,7 +112,7 @@
 }
 
 .post-grid .grid-nav-top .nav-search .loading {
-  background: rgb(255, 255, 255) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/ajax-loader.gif") no-repeat scroll 4px 6px;
+  background: rgb(255, 255, 255) url("ajax-loader.gif") no-repeat scroll 4px 6px;
   padding-left: 35px;
 }
 
@@ -315,11 +315,11 @@
 }
 
 .post-grid .owl-nav .owl-prev {
-	background:rgb(255, 255, 255) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/images/arrow-prev.png") no-repeat scroll 3px 7px;
+	background:rgb(255, 255, 255) url("images/arrow-prev.png") no-repeat scroll 3px 7px;
 
 }
 .post-grid .owl-nav .owl-next {
-background:rgb(255, 255, 255) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/images/arrow-next.png") no-repeat scroll 3px 7px;
+background:rgb(255, 255, 255) url("images/arrow-next.png") no-repeat scroll 3px 7px;
 }
 
 
@@ -466,15 +466,15 @@ background:rgb(255, 255, 255) url("https://nicholasgriffin.co.uk/wp-content/plug
 }
 
 .post-grid .share_button .fb {
-  background: rgba(0, 0, 0, 0) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/icons/facebook.png") repeat scroll 0 0 / 100% auto;
+  background: rgba(0, 0, 0, 0) url("icons/facebook.png") repeat scroll 0 0 / 100% auto;
 }
 
 .post-grid .share_button .twitter {
-  background: rgba(0, 0, 0, 0) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/icons/twitter.png") repeat scroll 0 0 / 100% auto;
+  background: rgba(0, 0, 0, 0) url("icons/twitter.png") repeat scroll 0 0 / 100% auto;
 }
 
 .post-grid .share_button .gplus {
-  background: rgba(0, 0, 0, 0) url("https://nicholasgriffin.co.uk/wp-content/plugins/post-grid/assets/frontend/css/icons/gplus.png") repeat scroll 0 0 / 100% auto;
+  background: rgba(0, 0, 0, 0) url("icons/gplus.png") repeat scroll 0 0 / 100% auto;
 }
 
 .post-grid .zoom {

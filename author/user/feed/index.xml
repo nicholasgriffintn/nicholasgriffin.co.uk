@@ -8,29 +8,55 @@
 	>
 
 <channel>
-	<title>user &#8211; Nicholas Griffin&#039;s personal site</title>
+	<title>Nicholas Griffin &#8211; Nicholas Griffin&#039;s personal site</title>
 	<atom:link href="https://nicholasgriffin.co.uk/author/user/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nicholasgriffin.co.uk</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sun, 14 May 2017 18:06:44 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 14 May 2017 20:58:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.7.4</generator>
 	<item>
-		<title>Hello world!</title>
-		<link>https://nicholasgriffin.co.uk/2017/05/14/hello-world/</link>
-		<comments>https://nicholasgriffin.co.uk/2017/05/14/hello-world/#comments</comments>
-		<pubDate>Sun, 14 May 2017 18:06:44 +0000</pubDate>
-		<dc:creator><![CDATA[user]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+		<title>Here&#8217;s how to host your WordPress website on Github and why you should do it</title>
+		<link>https://nicholasgriffin.co.uk/2017/05/14/heres-how-to-host-your-wordpress-website-on-github-and-why-you-should-do-it/</link>
+		<comments>https://nicholasgriffin.co.uk/2017/05/14/heres-how-to-host-your-wordpress-website-on-github-and-why-you-should-do-it/#respond</comments>
+		<pubDate>Sun, 14 May 2017 20:26:03 +0000</pubDate>
+		<dc:creator><![CDATA[Nicholas Griffin]]></dc:creator>
+				<category><![CDATA[Github]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[hosting]]></category>
+		<category><![CDATA[wordpress]]></category>
 
-		<guid isPermaLink="false">http:/?p=1</guid>
-		<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-				<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+		<guid isPermaLink="false">https://nicholasgriffin.co.uk/?p=10</guid>
+		<description><![CDATA[This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned! This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned! This is just a test post for now, however, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
+<p>This is just a test post for now, however, I will be making this into a fully-featured post very so so stay tuned!</p>
 ]]></content:encoded>
-			<wfw:commentRss>https://nicholasgriffin.co.uk/2017/05/14/hello-world/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
+			<wfw:commentRss>https://nicholasgriffin.co.uk/2017/05/14/heres-how-to-host-your-wordpress-website-on-github-and-why-you-should-do-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
 </rss>

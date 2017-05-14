@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Nicholas Griffin&#039;s personal site</title>
-	<atom:link href="https://nicholasgriffin.co.uk/feed/" rel="self" type="application/rss+xml" />
+	<title>Nicholas Griffin &#8211; Nicholas Griffin&#039;s personal site</title>
+	<atom:link href="https://nicholasgriffin.co.uk/posts/author/user/feed/" rel="self" type="application/rss+xml" />
 	<link>https://nicholasgriffin.co.uk</link>
 	<description>Web Developer, Blogger, and Technology Enthusiast</description>
 	<lastBuildDate>Sun, 14 May 2017 20:58:37 +0000</lastBuildDate>

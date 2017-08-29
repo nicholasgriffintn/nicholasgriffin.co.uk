@@ -313,7 +313,7 @@ ul {
     max-width: 30px;
 }
 
-.menu {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/icon-hamburger.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
+.menu {     background-size: contain!important;background:url('https://nicholasgriffin.co.uk/playground/Obiou/img/icon-hamburger.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
 .menu-close {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/cancel.svg') no-repeat; cursor:pointer;width: 100%;height: 100%;float: left;}
 .open .accordian-icon {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/open.svg') no-repeat; }
 .close .accordian-icon {     background-size: contain!important;background:url('http://nicholasgriffin.co.uk/playground/Obiou/img/close.svg') no-repeat; }

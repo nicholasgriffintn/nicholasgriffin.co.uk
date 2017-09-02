@@ -80,14 +80,18 @@ float: left;
 </style>
 
 <style>
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+@media only screen and (max-width: 801px) {
+	.col {  margin: 1% 0 1% 0%!important; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%!important; }
+}
+@media screen and (min-width: 802px) and (max-width: 1200px) { 
+    .col {  margin: 1% 0 1% 0%!important; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 50%!important; }
 }
 @media only screen and (max-width: 690px) {
-.mid-box-background {width: 100%; left: 0%!important;}
-.title-wrapper h1 {font-size: 5.5vw;}
-.title-wrapper h2 {font-size: 2.5vw;}
+	.mid-box-background {  width: 100%!important; left: 0px!important}
+	.title-wrapper h1 { font-size: 5.5vw!important; }
+    .title-wrapper h2 { font-size: 2.5vw!important; }
 }
 
 #background-parallax {
@@ -311,6 +315,10 @@ p.posts-text {
 	padding: 0px;
 	margin: 0px;
 }
+.page-title {
+    text-align: center;
+    font-size: 1.2vw;
+}
 
 /*  COLUMN SETUP  */
 .col {
@@ -407,10 +415,10 @@ Please mind the dust, I'm still developing this!
 
 <div class="main-section-header">
 
-<h3 class="posts-header">Hello, as you can see from the title, my name is Nicholas Griffin and I am a web developer, blogger, and a complete tech nerd, and although they are a bit out of order (I'm more of a nerd than anything), they are my biggest passions.</h3>
-<h4 class="posts-subheader">Back in 2011, I decided to start my own technology, gaming, and gadgets news and reviews site called <a href="https://technutty.co.uk/">TechNutty</a>, it was just a simple blog back then (it was even hosted on Blogger) with a pretty shoddy design and even worse writing, however, tech has also been my hobby and so I carried on. As time went on, that simple blog became a lot less simple. TechNutty is now viewed by people around the globe and I have even started developing for it myself, I manage the servers and I make sure that things look good, all while writing and managing the posts on the site at the same time.</h4>
-<h4 class="posts-subheader">Because of this, I need a new place to talk about one of my latest hobbies, and so I started this blog as a place to do that. But you won't find just web development stuff here, I am also going to use this as a place to talk about technology, talk about politics (yuk), and even complain about the weather from time to time (us Brits love doing that), so if you are interested in any of that, feel free to follow on, also if you are interested in taking a look at the code for this site, feel free to at the link below.</h4>
-<h3>Here are some of my latest projects:</h3>
+<p class="posts-header">Hello, as you can see from the title, my name is Nicholas Griffin and I am a web developer, blogger, and a complete tech nerd, and although they are a bit out of order (I'm more of a nerd than anything), they are my biggest passions.</h3>
+<p class="posts-subheader">Back in 2011, I decided to start my own technology, gaming, and gadgets news and reviews site called <a href="https://technutty.co.uk/">TechNutty</a>, it was just a simple blog back then (it was even hosted on Blogger) with a pretty shoddy design and even worse writing, however, tech has also been my hobby and so I carried on. As time went on, that simple blog became a lot less simple. TechNutty is now viewed by people around the globe and I have even started developing for it myself, I manage the servers and I make sure that things look good, all while writing and managing the posts on the site at the same time.</h4>
+<p class="posts-subheader">Because of this, I need a new place to talk about one of my latest hobbies, and so I started this blog as a place to do that. But you won't find just web development stuff here, I am also going to use this as a place to talk about technology, talk about politics (yuk), and even complain about the weather from time to time (us Brits love doing that), so if you are interested in any of that, feel free to follow on, also if you are interested in taking a look at the code for this site, feel free to at the link below.</h4>
+<h3 class="page-title">Here are some of my latest projects:</h3>
 
 <div class="github-embed">
 

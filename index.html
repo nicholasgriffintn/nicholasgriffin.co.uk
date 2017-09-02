@@ -292,7 +292,9 @@ p.posts-text {
     padding-top: 20px;
     overflow: hidden;
     border-top: 1px dashed #ddd;
+    display: grid;
 }
+
 .posts-subheader {
     text-align: center;
     font-size: 1.3em;
@@ -306,6 +308,36 @@ p.posts-text {
 }
 #homepage-subtitle {
   -webkit-animation-delay: 1s;
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 </style>
 
@@ -388,17 +420,31 @@ Please mind the dust, I'm still developing this!
 <h3 class="posts-header">Hello, as you can see from the title, my name is Nicholas Griffin and I am a web developer, blogger, and a complete tech nerd, and although they are a bit out of order (I'm more of a nerd than anything), they are my biggest passions.</h3>
 <h4 class="posts-subheader">Back in 2011, I decided to start my own technology, gaming, and gadgets news and reviews site called <a href="https://technutty.co.uk/">TechNutty</a>, it was just a simple blog back then (it was even hosted on Blogger) with a pretty shoddy design and even worse writing, however, tech has also been my hobby and so I carried on. As time went on, that simple blog became a lot less simple. TechNutty is now viewed by people around the globe and I have even started developing for it myself, I manage the servers and I make sure that things look good, all while writing and managing the posts on the site at the same time.</h4>
 <h4 class="posts-subheader">Because of this, I need a new place to talk about one of my latest hobbies, and so I started this blog as a place to do that. But you won't find just web development stuff here, I am also going to use this as a place to talk about technology, talk about politics (yuk), and even complain about the weather from time to time (us Brits love doing that), so if you are interested in any of that, feel free to follow on, also if you are interested in taking a look at the code for this site, feel free to at the link below.</h4>
-
-<div class="github-embed">
 <h3>Here are some of my latest projects:</h3>
 
-<div class="github-card" data-github="nicholasgriffintn/nicholasgriffin.co.uk" data-width="400" data-height="150" data-theme="default"></div>
-<div class="github-card" data-github="nicholasgriffintn/One-Page-React-App" data-width="400" data-height="" data-theme="default"></div>
-<div class="github-card" data-github="nicholasgriffintn/Ranak" data-width="400" data-height="150" data-theme="default"></div>
-<div class="github-card" data-github="nicholasgriffintn/Obiou-Responsive-Theme" data-width="400" data-height="" data-theme="default"></div>
-<div class="github-card" data-github="nicholasgriffintn/Just-HTML-PHP-CSS-share-buttons" data-width="400" data-height="" data-theme="default"></div>
-<div class="github-card" data-github="nicholasgriffintn/Pure-CSS-Language-Dropdown" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<div class="github-embed">
+
+    <div class="section group">
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/nicholasgriffin.co.uk" data-width="400" data-height="150" data-theme="default"></div>
+	</div>
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/One-Page-React-App" data-width="400" data-height="" data-theme="default"></div>
+	</div>
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/Ranak" data-width="400" data-height="150" data-theme="default"></div>
+	</div>
+    <div class="section group">
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/Obiou-Responsive-Theme" data-width="400" data-height="" data-theme="default"></div>
+	</div>
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/Just-HTML-PHP-CSS-share-buttons" data-width="400" data-height="" data-theme="default"></div>
+	</div>
+	<div class="col span_1_of_3">
+        <div class="github-card" data-github="nicholasgriffintn/Pure-CSS-Language-Dropdown" data-width="400" data-height="" data-theme="default"></div>
+	</div>
+</div>
 
 </div>
 
@@ -417,6 +463,8 @@ Please mind the dust, I'm still developing this!
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script async="async" src="https://nicholasgriffin.co.uk/assets/app.js"></script>
+
+<script async="async"  src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 </body>
 </html>
